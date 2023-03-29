@@ -15,9 +15,24 @@ for (i = 0; i <= 100; i++) {
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
+let number = 3;
+switch (number) {
+    case 1:
+        if number = 1;
+        return "Ponedeljak";
+    case 2:
+        return "Utorak";
+    case 3:
+        return "Srijeda";
 
-switch () {
-
+    case 4:
+        return "Cetvrtak";
+    case 5:
+        return "Petak";
+    case 6:
+        return "Subota";
+    case 7:
+        return "Nedelja";
 }
 
 //3 (4 BODA)
