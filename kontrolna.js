@@ -15,34 +15,35 @@ for (i = 0; i <= 100; i++) {
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
+/*
 let number = 1;
-for (numb of number) {
-    switch (numb) {
+for (number) {
+    switch (number) {
         case 1:
-            if (numb = 1)
+            if (number = 1)
                 return "Ponedeljak";
         case 2:
-            if (numb = 1)
+            if (number = 2)
                 return "Utorak";
         case 3:
-            if (numb = 1)
+            if (number = 3)
                 return "Srijeda";
 
         case 4:
-            if (numb = 1)
+            if (number = 4)
                 return "Cetvrtak";
         case 5:
-            if (numb = 1)
+            if (number = 5)
                 return "Petak";
         case 6:
-            if (numb = 1)
+            if (number = 6)
                 return "Subota";
         case 7:
-            if (numb = 7)
+            if (number = 7)
                 return "Nedelja";
     }
 }
-
+*/
 
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere ne uzimajuci u obzir prazna mjesta (eng. whitespaces)
@@ -60,6 +61,9 @@ const somePeople = {
     Kent: "Beck",
     Martin: "Fowler",
     Erich: "Gamma"
+}
+for (i = somePeople; i > somePeople.lenth; i++) {
+    console.log(i)
 }
 
 
@@ -84,6 +88,8 @@ for (broj of brojevi) {
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
 //INPUT: [2, 4, 6, 0, 1]
 //OUTPUT: [4, 16, 36, 0, 1]
+
+
 
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve dogadaje koji su se dogodili prije od vrijednosti iz ulaznog parametra
