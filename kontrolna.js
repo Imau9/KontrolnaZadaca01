@@ -1,1 +1,4 @@
-addEventListener
+//Grupa A
+//1.
+
+for
