@@ -2,7 +2,7 @@
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje parne brojeve od 0 do 100 (ukljucujuci 100)
 
-/*
+
 for (i = 0; i <= 100; i++) {
     if (i % 2 == 0) {
         console.log(i)
@@ -10,12 +10,12 @@ for (i = 0; i <= 100; i++) {
 }
 
 
-*/
+
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u dan u tjednu. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
-/*
+
 let number = 1;
 for (number) {
     switch (number) {
@@ -43,7 +43,7 @@ for (number) {
                 return "Nedelja";
     }
 }
-*/
+
 
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere ne uzimajuci u obzir prazna mjesta (eng. whitespaces)
@@ -62,10 +62,10 @@ const somePeople = {
     Martin: "Fowler",
     Erich: "Gamma"
 }
-for (i = somePeople; i > somePeople.lenth; i++) {
-    console.log(i)
+for (i = somePeople.property; i > somePeople.lenth; i++) {
+    Pop.somePeople;
 }
-
+console.log(somePeople);
 
 //INPUT: somePeople
 //OUTPUT: "Ada"
@@ -74,7 +74,7 @@ for (i = somePeople; i > somePeople.lenth; i++) {
 //Napisi funkciju u obliku function expressiona koja vraca proste brojeve
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [3, 5, 11]
-/*
+
 let brojevi = [3, 4, 5, 8, 11];
 for (broj of brojevi) {
     if (broj % 2 === 0) {
@@ -83,7 +83,7 @@ for (broj of brojevi) {
     else console.log(broj)
 }
 
-*/
+
 //ZAMJENA ZA 5 (4 BODA)
 //Napisi funkciju u obliku arrow functiona koja kvadrira i vraca dane inpute
 //INPUT: [2, 4, 6, 0, 1]
@@ -115,5 +115,8 @@ const someEvents = [
         eventYear: 1995,
     },
 ];
+
+
+
 //INPUT: (someEvents, 1992)
 //OUTPUT: [{eventName: "Izasao je Python", eventYear: 1991}, {eventName: "Izasao je C++", eventYear: 1985}]
