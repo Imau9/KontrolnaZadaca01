@@ -16,32 +16,31 @@ for (i = 0; i <= 100; i++) {
 //INPUT: 1; OUTPUT: "Ponedjeljak";
 //INPUT: 5; OUTPUT: "Petak"; 
 
-let number = 1;
-for (number) {
-    switch (number) {
-        case 1:
-            if (number = 1)
-                return "Ponedeljak";
-        case 2:
-            if (number = 2)
-                return "Utorak";
-        case 3:
-            if (number = 3)
-                return "Srijeda";
+let number = 1
 
-        case 4:
-            if (number = 4)
-                return "Cetvrtak";
-        case 5:
-            if (number = 5)
-                return "Petak";
-        case 6:
-            if (number = 6)
-                return "Subota";
-        case 7:
-            if (number = 7)
-                return "Nedelja";
-    }
+switch (number) {
+    case 1:
+        if (number = 1)
+            return "Ponedeljak";
+    case 2:
+        if (number = 2)
+            return "Utorak";
+    case 3:
+        if (number = 3)
+            return "Srijeda";
+
+    case 4:
+        if (number = 4)
+            return "Cetvrtak";
+    case 5:
+        if (number = 5)
+            return "Petak";
+    case 6:
+        if (number = 6)
+            return "Subota";
+    case 7:
+        if (number = 7)
+            return "Nedelja";
 }
 
 
@@ -115,8 +114,10 @@ const someEvents = [
         eventYear: 1995,
     },
 ];
-
-
-
+for (i = someEvents; i < 10; i++) {
+    if (eventYear == 1992) {
+        console.log(someEvents)
+    }
+}
 //INPUT: (someEvents, 1992)
 //OUTPUT: [{eventName: "Izasao je Python", eventYear: 1991}, {eventName: "Izasao je C++", eventYear: 1985}]
